@@ -33,6 +33,8 @@
         "otherModules": [],
         "enableTranslation": true,
         "nativeLanguage": "en",
-        "languages": ["en"]
+        "languages": ["en"],
+        "herokuAppName": "online-store-dude",
+        "herokuDeployType": "git"
     }
 }
