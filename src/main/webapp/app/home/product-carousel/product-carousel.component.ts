@@ -5,11 +5,11 @@ import { HttpHeaders, HttpResponse, HttpErrorResponse } from '@angular/common/ht
 import { JhiAlertService } from 'ng-jhipster';
 
 @Component({
-    selector: 'jhi-product-catalog',
-    templateUrl: './product-catalog.component.html',
-    styleUrls: ['product-catalog.component.css']
+    selector: 'jhi-product-carousel',
+    templateUrl: './product-carousel.component.html',
+    styleUrls: ['product-carousel.component.css']
 })
-export class ProductCatalogComponent implements OnInit {
+export class ProductCarouselComponent implements OnInit {
     products: IProduct[];
     constructor(private productService: ProductService, private jhiAlertService: JhiAlertService) {}
 
